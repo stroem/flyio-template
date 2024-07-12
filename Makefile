@@ -7,3 +7,4 @@ install:
 .PHONY: deploy
 deploy:
 	cd backend && $(FLY_CLI) deploy
+

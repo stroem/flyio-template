@@ -9,7 +9,6 @@ primary_region = 'ams'
 [build]
 
 [http_service]
-  dockerfile = "Dockerfile2"
   internal_port = 4000
   force_https = true
   auto_stop_machines = true
