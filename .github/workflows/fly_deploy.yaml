@@ -16,8 +16,6 @@ jobs:
         
       - name: Setup flyctl
         run: make install
-        # uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Deploy
         run: make deploy
-        # run: flyctl deploy
