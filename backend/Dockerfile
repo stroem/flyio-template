@@ -1,7 +1,7 @@
 FROM python:3.12
 
 WORKDIR /work
-COPY . /work
+COPY src /work
 
 RUN pip3 install -r requirements.txt
 

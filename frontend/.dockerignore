@@ -1,0 +1,32 @@
+# flyctl launch added from src/.gitignore
+# Logs
+src/**/logs
+src/**/*.log
+src/**/npm-debug.log*
+src/**/yarn-debug.log*
+src/**/yarn-error.log*
+src/**/pnpm-debug.log*
+src/**/lerna-debug.log*
+
+src/**/node_modules
+src/**/.DS_Store
+src/**/dist
+src/**/dist-ssr
+src/**/coverage
+src/**/*.local
+
+src/cypress/videos
+src/cypress/screenshots
+
+# Editor directories and files
+src/**/.vscode/*
+!src/**/.vscode/extensions.json
+src/**/.idea
+src/**/*.suo
+src/**/*.ntvs*
+src/**/*.njsproj
+src/**/*.sln
+src/**/*.sw?
+
+src/**/*.tsbuildinfo
+fly.toml
